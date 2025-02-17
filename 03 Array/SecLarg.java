@@ -15,3 +15,5 @@ public class SecLarg {
         System.out.println(sec);
     }
 }
+
+// arrayList starts
