@@ -27,6 +27,7 @@ public class PascalTriangle {
             System.out.println();
         }
 
+        
         sc.close();
     }
 }
