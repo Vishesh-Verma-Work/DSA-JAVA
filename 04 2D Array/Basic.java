@@ -21,7 +21,6 @@ public class Basic {
             }
             System.out.println();
         }
-
         sc.close();
     }
 }
