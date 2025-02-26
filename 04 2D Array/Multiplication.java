@@ -5,13 +5,15 @@ public class Multiplication {
         int[][] b = {{1,2},{3,4},{5,6}};
         int[][] c = new int[a.length][b[0].length];
 
+
         for(int i=0; i<c.length; i++){
             for(int j=0; j<c[0].length; j++){
-                for(int k=0; k<a[0].length; k++){ // k<b.length();
+                for(int k=0; k<a[0].length; k++){    // k<b.length()
                     c[i][j] += a[i][k]*b[k][j];
                 }
             }
         }
+
 
         for(int i=0; i<c.length;i++){
             for(int j=0; j<c[0].length; j++){
