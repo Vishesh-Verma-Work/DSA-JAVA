@@ -39,7 +39,7 @@ public class Basic {
                 System.out.println(d.compareTo(a)); // 3
         
 
-        // contains() a sub string or not? T/F
+        // contains() a sub string or not? T/F (name = "Vishesh Verma")
         System.out.println(name.contains("shesh ")); // true
         System.out.println(name.contains(" Verma")); // true
         System.out.println(name.contains("sheshv")); // false
@@ -60,6 +60,23 @@ public class Basic {
         // toLowerCase() or toUpperCase()
         System.out.println(b.toLowerCase());
         System.out.println(b.toUpperCase());    
-                // dont change the actual string 
+                // dont change the actual string
+                
+                
+        // is String mutable????
+        String x = "hell shell YES";
+        String m = x.toUpperCase();
+        System.out.println(m);
+        m = "HRII";
+        System.out.println(m);
+
+
+        // substring(i) substring(i,j) name = "Vishesh Verma"
+        System.out.println(name.substring(9)); // erma
+        System.out.println(name.substring(9,12)); // erm (j is excluded)
+        System.out.println(name.substring(0)); // Vishesh Verma
+        System.out.println(name.substring(12)); // a
+        System.out.println(name.substring(0,0)); // ""
+        // System.out.println(name.substring(13,-1)); // error give - cant rev in java
     }
 }
