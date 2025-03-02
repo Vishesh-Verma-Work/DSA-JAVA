@@ -57,6 +57,17 @@ public class Basic {
         System.out.println(b.concat(a)); // Abc + abc = Abcabc
         System.out.println(a.concat(a).concat(a)); // abc + abc + abc = abcabcabc
 
+        // Advance Concatat
+        String c1 = "Ram";
+        String c2 = "Shyam";
+        System.out.println(c1+c2); //RamShyam
+        System.out.println(c1+c2+12+13+14); // RamShyam121314
+        System.out.println(10+20+c1); // 30Ram
+
+        c1 += c2;  // c1 = c1+c2
+        c1 += c1;  // c1 = c1 + c1
+        System.out.println(c1); //RamShyamRamShyam
+
         // toLowerCase() or toUpperCase()
         System.out.println(b.toLowerCase());
         System.out.println(b.toUpperCase());    
@@ -78,5 +89,13 @@ public class Basic {
         System.out.println(name.substring(12)); // a
         System.out.println(name.substring(0,0)); // ""
         // System.out.println(name.substring(13,-1)); // error give - cant rev in java
+
+
+        System.out.println("OOOOOOOOOOOOOO");
+        String cc = "abcdef";
+        String cd = new String("abc");
+        String fin = cd + "def";
+        System.out.println(cc == cd); //F
+        System.out.println(cc.equals(fin)); //T
     }
 }
