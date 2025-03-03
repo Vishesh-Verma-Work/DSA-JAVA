@@ -97,5 +97,29 @@ public class Basic {
         String fin = cd + "def";
         System.out.println(cc == cd); //F
         System.out.println(cc.equals(fin)); //T
+
+
+
+        // insert and delete
+        StringBuilder sb = new StringBuilder("abcdef");
+        sb.deleteCharAt(0); // delete the 'a'
+        System.out.println(sb.charAt(0)); // b 
+        System.out.println(sb); // bcdef
+
+        // deleting in range of char
+        sb.delete(2,4); // delete -> "de"
+        System.out.println(sb); // bcf
+
+        // inserting a char or number 
+        sb.insert(0, "a"); // abcf
+        sb.insert(sb.length(), "THIS IS LAST"); // abcTHIS IS LAST
+        sb.insert(sb.length(), 7); // abcTHIS IS LAST7
+        sb.insert(sb.length(), false); // abcTHIS IS LAST7
+        System.out.println(sb);
+
+
+        // reverse an string 
+        sb.reverse();
+        System.out.println(sb);
     }
 }

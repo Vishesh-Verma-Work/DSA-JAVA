@@ -12,6 +12,13 @@ public class StringBuilderBasics {
         StringBuilder sb = new StringBuilder(sc.nextLine());
         System.out.println(sb);
 
+        // chaning specific char in the string 
+
+        sb.setCharAt(0, 'V');
+        System.out.println(sb);
+
+        sc.close();
+
 
     }
 }
