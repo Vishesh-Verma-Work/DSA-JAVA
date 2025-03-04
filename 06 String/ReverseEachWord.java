@@ -9,6 +9,7 @@ public class ReverseEachWord {
                 ans.append(" ");
             }else{
                 // fill the code 
+                // else code
             }
         }
     }
