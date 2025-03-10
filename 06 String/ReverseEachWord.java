@@ -17,7 +17,7 @@ public class ReverseEachWord {
         //     if((int)(sb.charAt(i)) == 32){
         //         ans.append(" ");
         //     }else{
-        //         code
+        //         code completed
         //     }
         // }
 
