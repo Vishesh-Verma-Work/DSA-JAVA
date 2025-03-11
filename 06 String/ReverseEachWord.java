@@ -1,34 +1,31 @@
+import java.util.*;
 public class ReverseEachWord {
     public static void rev(int start,int end, StringBuilder sb){
         while(start < end){
             char ch = sb.charAt(start);
-            sb.setCharAt(sb.charAt(start) , sb.charAt(end));
-            sb.setCharAt(sb.charAt(end) , ch);
+            sb.setCharAt(start , sb.charAt(end));
+            sb.setCharAt(end , ch);
             start++;
-            end--;
+            end--; 
         }
     }   
     public static void main(String[] args) {
         // i am vishesh = i ma hsehsiv
-        StringBuilder sb = new StringBuilder("vishesh verma ");
-        // StringBuilder ans = new StringBuilder(sb.length());
-        // ascii of space = 32
-        // for(int i=0; i<sb.length(); i++){
-        //     if((int)(sb.charAt(i)) == 32){
-        //         ans.append(" ");
-        //     }else{
-        //         code completed
-        //     }
-        // }
-
+        Scanner sc = new Scanner(System.in);
+        StringBuilder sb = new StringBuilder(sc.nextLine());
         int start = 0, end = 0;
-        for(int i=0; i<sb.length(); i++){
-        if((int)sb.charAt(end+1) == 32 || end == sb.length()-1){
-            // call the function
-            rev(start,end, sb);
-            start = end;
-        }else end++;
+        while(end<sb.length()){
+            if(sb.charAt(end) != ' ') end++;
+            else{
+                rev(start, end-1, sb);
+                start = end+1;
+                end = start;
+            }
         }
+        rev(start, end-1, sb); // for the reversal of the last loop bro!! :(
+        System.out.println(sb);
+
+        sc.close();
 
         
     }
