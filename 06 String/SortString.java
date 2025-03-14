@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class SortString {
+    // sort the string by conversion
     public static void main(String[] args) {
         String str  = "vishesh";
         StringBuilder sb = new StringBuilder("verma");
