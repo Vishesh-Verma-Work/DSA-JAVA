@@ -17,7 +17,7 @@ public class SortedRotateArrCheck {
     }   
     if(arr[arr.length-1] <= arr[0]) System.out.println("t");
     //fix a bit , just use a flag
-    // flag to toggle switch
+    // flag to use case
      System.out.println("f");
     
     }
