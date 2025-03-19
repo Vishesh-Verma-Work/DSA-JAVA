@@ -18,6 +18,7 @@ public class SelectionSort02 {
         return minIndx;
     }
     public static void swap(int[] arr, int i, int j){
+        // swap the two indices
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
