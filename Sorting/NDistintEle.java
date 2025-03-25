@@ -34,7 +34,6 @@ public class NDistintEle {
             arr[idx] = x++;
         }
         }   
-        //code
         for(int ele : arr){
             System.out.print(ele + " ");
         }
