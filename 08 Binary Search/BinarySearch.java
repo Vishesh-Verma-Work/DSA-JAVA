@@ -1,4 +1,5 @@
 public class BinarySearch {
+    // binary search
     public static void main(String[] args) {
         int[] arr = {-1,0,3,5,9,12};
         int target = 19;
@@ -12,6 +13,7 @@ public class BinarySearch {
             else if(arr[mid] < target) lw = mid+1;
             else up = mid-1;
         }
+
         System.out.println("not found");
     }
 }
