@@ -42,5 +42,7 @@ public class SmallestDivThreshold {
             else lw = mid+1;
         }
         System.out.println(lw);
+        System.out.println(lw);
+        // desription done
     }
 }
