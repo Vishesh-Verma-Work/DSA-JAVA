@@ -48,6 +48,7 @@ class FirstLast03{
 
 
 // Standard Method  --->
+// this is the demo code, paste the entire code here
 // class FirstLast03 {
 //     public int[] searchRange(int[] arr, int target) {
 //         int[] sol = {-1, -1}; // Default if target not found
