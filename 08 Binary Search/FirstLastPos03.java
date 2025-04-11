@@ -85,3 +85,70 @@ class FirstLast03{
 //         return sol;
 //     }
 // }
+
+
+
+
+
+// waste code ---->
+// class Solution {
+//     public List<Integer> findClosestElements(int[] arr, int k, int x) {
+//         List<Integer> li = new ArrayList<>();
+        
+//         if(x < arr[0]){
+//             for(int i = 0; i < k; i++){
+//                 li.add(arr[i]);
+//             }
+//             return li;
+//         }
+
+//         if(x > arr[arr.length - 1]){
+//             for(int i = arr.length - k; i < arr.length; i++){
+//                 li.add(arr[i]);
+//             }
+//             return li;
+//         }
+
+//         int lw = 0, hi = arr.length - 1;
+//         int lb = hi;
+//         while(lw <= hi){
+//             int mid = lw + (hi - lw) / 2;
+//             if(arr[mid] >= x){
+//                 lb = Math.min(lb, mid);
+//                 hi = mid - 1;
+//             } else {
+//                 lw = mid + 1;
+//             }
+//         }
+
+//         int i = lb - 1;
+//         int j = lb;
+//         while(k > 0 && i >= 0 && j < arr.length){
+//             int d1 = Math.abs(x - arr[i]);
+//             int d2 = Math.abs(x - arr[j]);
+//             if(d1 <= d2){
+//                 li.add(arr[i]);
+//                 i--;
+//             } else {
+//                 li.add(arr[j]);
+//                 j++;
+//             }
+//             k--;
+//         }
+
+//         while(k > 0 && i >= 0){
+//             li.add(arr[i]);
+//             i--;
+//             k--;
+//         }
+
+//         while(k > 0 && j < arr.length){
+//             li.add(arr[j]);
+//             j++;
+//             k--;
+//         }
+
+//         Collections.sort(li);
+//         return li;
+//     }
+// }
