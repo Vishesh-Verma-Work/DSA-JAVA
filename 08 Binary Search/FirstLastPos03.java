@@ -148,6 +148,75 @@ class FirstLast03{
 //         if(x < arr[0]){
 //             for(int i = 0; i < k; i++){
 //                 li.add(arr[i]);
+//             }r.length; i++){
+//                 li.add(arr[i]);
+//             }
+//     public List<Integer> findClosestElements(int[] arr, int k, int x) {
+//         List<Integer> li = new ArrayL
+//     public List<Integer> findClosestElements(int[] arr, int k, int x) {
+//         List<Integer> li = new ArrayList<>();
+        
+//         if(x < arr[0]){
+//             for(int i = 0; i < k; i++){
+//                 li.add(arr[i]);
+//             }
+//             return li;
+//         }
+
+//         if(x > arr[arr.length - 1]){
+//             for(int i = arr.length - k; i < arr.length; i++){
+//                 li.add(arr[i]);
+//             }
+//     public List<Integer> findClosestElements(int[] arr, int k, int x) {
+//         List<Integer> li = new ArrayL
+//             for(int i = 0; i < k; i++){
+//                 li.add(arr[i]);
+//             }r.length; i++){
+//                 li.add(arr[i]);
+//             }
+//     public List<Integer> findClosestElements(int[] arr, int k, int x) {
+//         List<Integer> li = new ArrayL
+//     public List<Integer> findClosestElements(int[] arr, int k, int x) {
+//         List<Integer> li = new ArrayList<>();
+        
+//         if(x < arr[0]){
+//             for(int i = 0; i < k; i++){
+//                 li.add(arr[i]);
+//             }
+//             return li;
+//         }
+
+//         if(x > arr[arr.length - 1]){
+//             for(int i = arr.length - k; i < arr.length; i++){
+//                 li.add(arr[i]);
+//             }
+//     public List<Integer> findClosestElements(int[] arr, int k, int x) {
+//         List<Integer> li = new ArrayL
+//             for(int i = 0; i < k; i++){
+//                 li.add(arr[i]);
+//             }r.length; i++){
+//                 li.add(arr[i]);
+//             }
+//     public List<Integer> findClosestElements(int[] arr, int k, int x) {
+//         List<Integer> li = new ArrayL
+//     public List<Integer> findClosestElements(int[] arr, int k, int x) {
+//         List<Integer> li = new ArrayList<>();
+        
+//         if(x < arr[0]){
+//             for(int i = 0; i < k; i++){
+//                 li.add(arr[i]);
+//             }
+//             return li;
+//         }
+
+//         if(x > arr[arr.length - 1]){
+//             for(int i = arr.length - k; i < arr.length; i++){
+//                 li.add(arr[i]);
+//             }
+//     public List<Integer> findClosestElements(int[] arr, int k, int x) {
+//         List<Integer> li = new ArrayL
+//             for(int i = 0; i < k; i++){
+//                 li.add(arr[i]);
 //             }
 //             return li;
 //         }
