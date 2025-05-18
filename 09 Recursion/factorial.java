@@ -3,7 +3,7 @@ import java.util.*;
 
 public class factorial {
     public static int fact(int n){
-        if(n==1) return 1; //base case,when n == 1, stop the recursion
+        if(n==1 || n==0) return n; //base case,when n == 1, stop the recursion
         else return n*fact(n-1);
     }
    
