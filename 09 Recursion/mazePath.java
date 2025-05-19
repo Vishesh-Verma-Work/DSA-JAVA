@@ -6,6 +6,6 @@ public class mazePath {
         return down+right;
     }
     public static void main(String[] args) {
-     System.out.println(paths(3,4));   
+     System.out.println(paths(3,3));   
     }
 }

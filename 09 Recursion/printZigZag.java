@@ -8,6 +8,6 @@ public class printZigZag {
         System.out.print(n + " ");
     }
     public static void main(String[] args) {
-        print(3);
+        print(2);
     }
 }
