@@ -6,7 +6,7 @@ public class l2 {
             this.value = val;
         }
     }
-    public static void print(Node head){
+    public static void printByRecursion(Node head){
         // By Loop
         // while(temp!= null){
         //     System.out.println(temp.value);
@@ -17,7 +17,7 @@ public class l2 {
         if(head == null){
             return;
         }
-        print(head.next);
+        printByRecursion(head.next);
         System.out.println(head.value);
     }
     public static void main(String[] args) {
@@ -31,6 +31,6 @@ public class l2 {
         c.next = d;
         d.next = e;
 
-        print(a);
+        printByRecursion(a);
     }
 }
